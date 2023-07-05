@@ -6,7 +6,7 @@
         </title>
         <style>
             body{
-                background-image: url("./Images/photo\ travel.jpg");
+                background-image: url("./Images/phototravel.jpg");
                 background-repeat: no-repeat;
                 background-size: 100%;
             }
@@ -55,7 +55,7 @@
             {
                 font-family: monospace;
                 text-align: center;
-                margin-top: 280px;
+                margin-top: 260px;
                 font-size: 60px;
             }
 
@@ -88,13 +88,37 @@
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
              }
 
+             .option-menu
+             {
+                font-size: 30px;
+                margin-left: 80px;
+                border-radius: 5px;
+                width: 420px;
+                box-shadow: 1px 1px 6px 3px black;
+             }
+             .go-btn
+             {
+                margin-left: 10px;
+                font-size: 30px;
+                border-radius: 10px;
+                background-color: aquamarine;
+                cursor: pointer;
+                box-shadow: 1px 3px 8px 3px black;
+             }
+             .go-btn:hover
+             {
+                background-color: chocolate;
+                transition: 1s;
+                cursor: pointer;
+             }
+
 
         </style>
     </head>
     <body>
         
         <div class="nav-bar">
-            <h1 class="title">Explore-Maharastra</h1>
+            
             <img src="" class="nav-img"/>
             
             <a href="" class="nav-btn">HOME</a>
@@ -114,16 +138,19 @@
         </div>
 
         <div class="place-book">
-            <select>
+            <select class="option-menu">
                 <option>Whre Whould You Like To Go</option>
                 <option>Mumbai</option>
                 <option>Pune</option>
                 <option> Ratnagiri</option>
-                <option>Aurangabad</option>
-
+                <option>Nagpur</option>
             </select>
+
+            <button class="go-btn ">Go >></button>
            
         </div>
+
+        <p></p>
 
        
                                                                                                                                     
