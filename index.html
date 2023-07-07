@@ -2,18 +2,18 @@
 <html>
     <head>
         <title>
-            Go-Trip
+           Explore-Maharastra
         </title>
         <style>
             body{
-                background-image: url("./Images/phototravel.jpg");
+                background-image: url("./Images/shutterstock_1293922393.jpg");
                 background-repeat: no-repeat;
-                background-size: 1980px 750px;
+                background-size: 1550px 725px;
             }
              .nav-bar
             {
-                background-color: black;
-                color: white;
+                background-color: none;
+                color: black;
                 padding: 10px;
                 margin-left: -7px;
                 margin-right: -10px;
@@ -29,39 +29,49 @@
             {
                 margin: 5px;
                 text-decoration: none;
-                margin-right: 10px;
+                margin-right: 15px;
                 color: black;
                 padding: 4px;
                 margin-top: 20px;
                 font-size: 20px;
-                color: white;
+                color:black;
+                font-family:'Gill Sans', 'Gill Sans MT', 
+                Calibri, 'Trebuchet MS', sans-serif; 
              }
-            
-
-            .nav-img
+             .nav-btn:hover
+            {
+                box-shadow: 1px 1px 5px 1px black;
+                transition: 1s;
+                
+             }
+             .nav-img
             {
                 height: 50px;
                 width: 100px;
                 margin-left: 9px;
-                margin-right: 550px;
+                margin-right: 350px;
                 margin-top: -2px;
             }
          
-            .nav-btn:hover
-            {
-                box-shadow: 1px 1px 5px 1px white;
-                transition: 1s;
-                
-             }
-            
+           
             .home-head
             {
                 font-family: monospace;
                 text-align: center;
-                margin-top: 260px;
+                margin-top: 140px;
                 font-size: 60px;
-                margin-left: 19px;
-                color: yellow;
+                margin-left: 25px;
+                color:#000000;
+                
+            }
+            .home-dalist-option
+            {
+               margin-left: 150px;
+               margin-top: 50px;
+               font-size: 30px;
+               border-radius: 4px;
+               width: 440px;
+               text-align: center;
             }
             
                 .place-book
@@ -91,26 +101,16 @@
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
              }
 
-             .option-menu
-             {
-                font-size: 20px;
-                margin-left: 150px;
-                border-radius: 5px;
-                width: 310px;
-                box-shadow: 1px 1px 6px 3px black;
-                cursor: pointer;
-                opacity: 0.5;
-               
-             }
+            
              .go-btn
              {
                 margin-left: 10px;
-                font-size: 20px;
+                font-size: 30px;
                 border-radius: 10px;
                 background-color: aquamarine;
                 cursor: pointer;
                 box-shadow: 1px 3px 8px 3px black;
-                opacity: 0.7
+                
              }
              .go-btn:hover
              {
@@ -119,18 +119,9 @@
                 cursor: pointer;
              }
               
-             .home-images
-             {
-                display: flex;
-                justify-content: space-evenly;
-                background-color: bisque;
-                height: 250px;
-                width: 1350px;
-             }
-             .home-imgs
-             {
-                padding-top: 20px;
-             }
+
+             
+
              
 
         </style>
@@ -140,12 +131,13 @@
         <div class="nav-bar">
             
             
-            <h1 style="margin-right: 500px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Explore-Maharastra</h1>
-            <a href="" class="nav-btn">HOME</a>
+            <h1 style= "margin-right: px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Explore-Maharastra</h1>
+            <img src="./Images/explore-maharastra 2.jpeg" class="nav-img"/>
+            <a href="index.html" target="_blank" class="nav-btn">HOME</a>
             <a href=""  class="nav-btn">PLACES</a>
             <a href=""  class="nav-btn">HOTEL</a>
             <a href=""  class="nav-btn">IMAGES</a>
-            <a href="./html/aboutus.html"  class="nav-btn">ABOUT US</a>
+            <a href="./html/aboutus.html" target="_blank"  class="nav-btn">ABOUT US</a>
             <a href=""  class="nav-btn">CONTACT US</a>
                 
             
@@ -153,21 +145,26 @@
 
 
 
-        <div class="main-head">
+        <div>
             <h1 class="home-head">Find Your Next-Tour!</h1>
         </div>
 
         <div class="place-book">
-            <select class="option-menu">
-                <option>Where Whould You Like To Go?</option>
-                <option>Mumbai</option>
-                <option>Pune</option>
-                <option> Ratnagiri</option>
-                <option>Nagpur</option>
-            </select>
+            <form>
+                <input list="Technologyoption"   class="home-dalist-option"  placeholder="Where Would You Like To Go"/>
+                <datalist id="Technologyoption">
+                    <option>Choose Technology</option>
+                    <option>HTML</option>
+                    <option>CSS</option>
+                    <option>JAVA Script</option>
+                    <option>Bootstrap</option>
+                    <option>Node Js</option>
+                    <option>ExpressJs</option>
+                </datalist>
+                <button class="go-btn ">Go </button>
+            </form>
 
-            <button class="go-btn ">Go >></button>
-           
+            
         </div>
 
         
