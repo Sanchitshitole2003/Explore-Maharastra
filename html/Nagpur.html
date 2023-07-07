@@ -6,68 +6,78 @@
             body{
                 margin:0%;
             }
-            .navbar{
-                background-color: #ff9900;
-                padding:20px;
-                margin-right:20px;
-                margin-left:20px;
-                border-bottom-left-radius:35px;
-                border-bottom-right-radius:35px;
-                box-shadow: 10px 10px 5px rgb(238, 214, 119);
-                display:flex;
-                flex-direction: row;
+            .nav-bar{
+                background-color: none;
+                color: black;
+                padding: 10px;
+                margin-left: -7px;
+                margin-right: -10px;
+                margin-top: -7px;
+                display: flex;
                 justify-content: end;
-                position:sticky;
-                top:0px;
+                font-size: 10px;
+                top: 5px;
             }
-            .navbar:hover{
-                padding:25px;
-                transition:0.4s;
-            }
-            .menu{
+          
+
+            .nav-btn{
+                margin: 5px;
                 text-decoration: none;
-                background-color: #595959;
-                font-size: 25px;
-                margin-left: 10px;
-                margin-right: 10px;
-                padding:10px;
-                border-radius:10px;
-                color: #ffffff;
+                margin-right: 15px;
+                color: black;
+                padding: 4px;
+                margin-top: 20px;
+                font-size: 20px;
+                color:black;
+                font-family:'Gill Sans', 'Gill Sans MT', 
+                Calibri, 'Trebuchet MS', sans-serif; 
+             }
+             .nav-btn:hover{
+                box-shadow: 1px 1px 5px 1px black;
+                transition: 0.5s;
+                
+             }
+             .nav-img{
+                height: 50px;
+                width: 100px;
+                margin-left: 9px;
+                margin-right: 350px;
+                margin-top: -2px;
             }
-            .menu:hover{
-                background-color:#333333;
-                transition:0.5s;
-                padding-left:12px;
-                padding-right:12px;
+            .fontfamily{
+                font-family:Arial, Helvetica, sans-serif;
             }
             .discription{
-                width:auto;
-                height:200px;
-                padding:50px;
+                padding-left: 30px;
+                padding-right: 30px;
+                height: 275px;
+                margin-bottom: 30px;
+                border:1px black solid;
             }
             .cityname{
-                font-family:Arial, Helvetica, sans-serif;
+                
                 font-size:40px;
                 font-weight:bold;
                 text-align: center;
             }
             .cityline{
-                font-family: Arial, Helvetica, sans-serif;
-                font-size: 20px;
+                
                 text-align: center;
             }
             .places{
-                margin-left: 50px;
-                margin-right:50px;
+                border:1px black solid;
+                width: 1445.5px;
+                
             }
             .place{
-                padding:10px;
                 display:inline-block;
-                height:300px;
+                padding: 20px;
+                height:450px;
                 width:350px;
-                margin-inline-start: 50px;
-                margin-bottom: 50px;
+                
+                
                 box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+                
             }
             .place:hover{
                 box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
@@ -78,12 +88,10 @@
                 transition:0.3s;
             }
             img{
-                display:block;
                 height:250px;
                 width:350px;    
             }
             p{
-                font-family:Arial, Helvetica, sans-serif;
                 font-size:20px;
                 font-weight:bold;
                 text-align: center;
@@ -92,45 +100,58 @@
         </style>
     </head>
     <body>
-        <div class="navbar">
-            <a href="" class="menu">Home</a>
-            <a href="" class="menu">Places</a>
-            <a href="" class="menu">Hotel</a>
-            <a href="" class="menu">Images</a>
-            <a href="" class="menu">About us</a>
-            <a href="" class="menu">Contact us</a>
+        <div class="nav-bar">
+            <h1 style= "margin-right: px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Explore-Maharastra</h1>
+            <img src="../Images/explore-maharastra 2.jpeg" class="nav-img"/>
+            <a href="../index.html" target="_blank" class="nav-btn">HOME</a>
+            <a href="./places.html"  class="nav-btn">PLACES</a>
+            <a href="./hotel.html"  class="nav-btn">HOTEL</a>
+            <a href="./images.html"  class="nav-btn">IMAGES</a>
+            <a href="./aboutus.html" target="_blank"  class="nav-btn">ABOUT US</a>
+            <a href="./contact.html"  class="nav-btn">CONTACT US</a>
         </div>  
-       <div class="discription">
+
+       <div class="discription fontfamily">
         <p class="cityname"> Welcome to the Orange city- Nagpur</p>
         <p class="cityline">Nagpur: The vibrant "Orange City" in central India, blending history, culture, and modernity.</p>
         <p class="cityline">Nagpur has a long history and cultural heritage, with influences from various dynasties and empires. 
             The city is home to several historical landmarks and architectural marvels, including the majestic Nagpur Fort, 
             which was built by the Bhonsle dynasty.</p>
        </div>
-       <div class="places">
-        <div class="place">
-            <img src="../Images/shri swaminarayan mandir.png"/>
-            <p> Shri Swaminarayan Temple</p>
+       <div class="places fontfamily">
+        <div class="place fontfamily">
+            <img src="../Images/Nagpur/shri swaminarayan mandir.png"/>
+            <p>Shri Swaminarayan Temple</p>
+            <p>A magnificent Hindu temple known for its grand architecture 
+                and spiritual significance.</p>
         </div>
         <div class="place">
-            <img src="../Images/shri ganesh tekdi mandir.jpg"/>
+            <img src="../Images/Nagpur/shri ganesh tekdi mandir.jpg"/>
             <p>Shri Ganesh Temple Tekdi</p>
+            <p>A revered Hindu temple nestled on a hill, offering breathtaking views and 
+                a serene atmosphere for devotees seeking blessings from Lord Ganesh.</p>
         </div>
         <div class="place">
-            <img src="../Images/Dikshabhoomi.jpg    "/>
+            <img src="../Images/Nagpur/dikshabhoomi.jpg"/>
             <p>Deekshabhoomi</p>
+            <p >A revered Buddhist pilgrimage site where Dr. B.R. Ambedkar embraced Buddhism, 
+                inspiring spiritual transformation and social equality.
+            </p>
         </div>
         <div class="place">
-            <img src="../Images/futala lake.jpg"/>
+            <img src="../Images/Nagpur/futala lake.jpg"/>
             <p>Futala Lake</p>
+            <p>A captivating spectacle where synchronized fountains and colorful lights create a mesmerizing display over the tranquil waters.</p>
         </div>
         <div class="place">
-            <img src="../Images/raman science centre.jpg"/>
+            <img src="../Images/Nagpur/raman science centre.jpg"/>
             <p>Raman Science Centre</p>
+            <p>An interactive and educational institution that sparks curiosity and promotes scientific learning through engaging exhibits and activities.</p>
         </div>
         <div class="place">
-            <img src="../Images/sitabuldi fort.jpg"/>
+            <img src="../Images/Nagpur/sitabuldi fort.jpg"/>
             <p>Sitabuldi Fort</p>
+            <p>Has a storied history, serving as a strategic military stronghold during colonial times and witnessing significant battles during the British Raj.</p>
         </div>
        </div>
     </body>
