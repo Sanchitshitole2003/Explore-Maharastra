@@ -5,11 +5,14 @@
         <style>
               body{
                 margin:0%;
+                background-image: url(../Images/about-background.png);
+                background-size: cover;
             }
             .nav-bar{
                 background-color: none;
                 color: black;
                 padding: 10px;
+                height:60px;
                 margin-left: -7px;
                 margin-right: 10px;
                 margin-top: -7px;
@@ -17,9 +20,8 @@
                 justify-content: end;
                 font-size: 10px;
                 top: 5px;
+                
             }
-          
-
             .nav-btn{
                 margin: 5px;
                 text-decoration: none;
@@ -38,12 +40,13 @@
                 
              }
              .nav-img{
-                height: 50px;
+                height: 80px;
                 width: 100px;
-                margin-left: 9px;
-                margin-right: 350px;
-                margin-top: -2px;
+                margin-right: 450px;
+                margin-top: -9px;
             }
+
+
             .ourteam{
                 text-align: center;
                 font-family: Arial, Helvetica, sans-serif;
@@ -58,20 +61,21 @@
             .member{
                 display:inline-block;
                 padding:20px;
-                height:300px;
+                height:380px;
                 width:225px;
                 border-radius: 5px;
                 margin-bottom: 30px;
                 box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, 
                 rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, 
                 rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+                text-align: center;
                 
             }
             .member:hover{
                 box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
                 transition:0.3s;
             }
-            img{
+            .img-profile{
                 height: 200px;
                 width:200px;
                 border-radius:50%;
@@ -87,12 +91,36 @@
                 font-size:22px;
                 text-align: center;
             }
+            .img-linkedin{
+                display:inline-block;
+                height: 30px;
+                width: 30px;
+            }
+            .l{
+                display:block;
+            }
+
+
+            .foot{
+                background-color: rgb(215, 203, 154);
+                text-align: center;
+
+            }
+            .foot-name{
+                font-size: 20px;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+                font-weight: bold;
+            }
+            .foot-img{    
+                height: 40px;
+                width: 50px;
+            }
         </style>
     </head>
     <body>
         <div class="nav-bar">
             <h1 style= "margin-right: px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Explore-Maharastra</h1>
-            <img src="../Images/explore-maharastra 2.jpeg" class="nav-img"/>
+            <img src="../Images/flight.png" class="nav-img"/>
             <a href="../index.html" target="_blank" class="nav-btn">HOME</a>
             <a href="./places.html"  class="nav-btn">PLACES</a>
             <a href="./hotel.html"  class="nav-btn">HOTEL</a>
@@ -106,45 +134,75 @@
              
         <div class="cont-team">
             <div class="member">
-                <img src="../Images/Kunal Ingle.jpg"/>
+                <img src="../Images/Kunal Ingle.jpg" class="img-profile"/>
                 <p class="name">Kunal Ingle</p>
+                <img src="../Images/linkedin.png" class="img-linkedin"/>
+                <a href="" class="l">KunalIngle</a>
+                
             </div>
             <div class="member">
-                <img src="../Images/Lokesh Manapure.jpg"/>
-                <p class="name">Lokesh Manapure</p>
-            </div>
-            <div class="member">
-                <img src="../Images/Sanchit Shitole.jpg"/>
-                <p class="name">Sanchit Shitole</p>
-            </div>
-            <div class="member">
-                <img src="../Images/Anagha Thorat.jpg"/>
-                <p class="name">Anagha Thorat</p>
-            </div>
-        </div>
-        <div class="cont-team">
-            <div class="member">
-                <img src="https://images.pexels.com/photos/2055100/pexels-photo-2055100.jpeg?auto=compress&cs=tinysrgb&w=600"/>
-                <p class="name">Arya Gundu</p>
-            </div>
-            <div class="member">
-                <img src="https://images.pexels.com/photos/2055100/pexels-photo-2055100.jpeg?auto=compress&cs=tinysrgb&w=600"/>
-                <p class="name">Pooja</p>
-            </div>
-            <div class="member">
-                <img src="https://images.pexels.com/photos/2055100/pexels-photo-2055100.jpeg?auto=compress&cs=tinysrgb&w=600"/>
-                <p class="name">Aniruddha Kalsait</p>
-            </div>
-            <div class="member">
-                <img src="../Images/Kshteel Parkale.jpg"/>
-                <p class="name">Kshiteej Prakale</p>
-            </div>
-        </div>
-        <div class="cont-team">
-            <div class="member">
-                <img src="../Images/Vishal Phadatare.jpg"/>
+                <img src="../Images/Vishal Phadatare.jpg" class="img-profile"/>
                 <p class="name">Vishal Phadatre</p>
+                <img src="../Images/linkedin.png" class="img-linkedin"/>
+                <a href="" class="l">Vishal Phadatre</a>
             </div>
+            <div class="member">
+                <img src="../Images/Sanchit Shitole.jpg" class="img-profile"/>
+                <p class="name">Sanchit Shitole</p>
+                <img src="../Images/linkedin.png" class="img-linkedin"/>
+                <a href="https://www.linkedin.com/in/sanchit-shitole-62718824b/" class="l">Sanchit Shitole</a>
+            </div>
+            <div class="member">
+                <img src="../Images/Anagha Thorat.jpg" class="img-profile"/>
+                <p class="name">Anagha Thorat</p>
+                <img src="../Images/linkedin.png" class="img-linkedin"/>
+                <a href="https://www.linkedin.com/in/anagha-thorat-859771275/" class="l">Angha Thorat</a>
+            </div>
+        </div>
+        <div class="cont-team">
+            <div class="member">
+                <img src="https://images.pexels.com/photos/2055100/pexels-photo-2055100.jpeg?auto=compress&cs=tinysrgb&w=600" class="img-profile"/>
+                <p class="name">Arya Gundu</p>
+                <img src="../Images/linkedin.png" class="img-linkedin"/>
+                <a href="" class="l">Arya Gundu</a>
+            </div>
+            <div class="member">
+                <img src="https://images.pexels.com/photos/2055100/pexels-photo-2055100.jpeg?auto=compress&cs=tinysrgb&w=600" class="img-profile"/>
+                <p class="name">Pooja</p>
+                <img src="../Images/linkedin.png" class="img-linkedin"/>
+                <a href="" class="l">Pooja</a>
+            </div>
+            <div class="member">
+                <img src="https://images.pexels.com/photos/2055100/pexels-photo-2055100.jpeg?auto=compress&cs=tinysrgb&w=600" class="img-profile"/>
+                <p class="name">Aniruddha Kalsait</p>
+                <img src="../Images/linkedin.png" class="img-linkedin"/>
+                <a href="" class="l">Anniruddha Kalsait</a>
+            </div>
+            <div class="member">
+                <img src="../Images/Kshteel Parkale.jpg" class="img-profile"/>
+                <p class="name">Kshiteej Prakale</p>
+                <img src="../Images/linkedin.png" class="img-linkedin"/>
+                <a href="https://www.linkedin.com/in/kshiteej-parkale-95a481255/" class="l">Kshiteej Parakale</a>
+            </div>
+        </div>
+        <div class="cont-team">
+           
+            <div class="member">
+                <img src="../Images/Lokesh Manapure.jpg" class="img-profile"/>
+                <p class="name">Lokesh Manapure</p>
+                <img src="../Images/linkedin.png" class="img-linkedin"/>
+                <a href="https://www.linkedin.com/in/lokesh-manapure-a35929232/" class="l">Lokesh Manapure</a>
+                
+            </div>
+        </div>
+        
+        <div class="foot">
+            <p class="foot-name">Explore-Maharastra</p><img src="../Images/flight.png" class="foot-img"/>
+            <p class="foot-name">Find Your Next Tour!</p>
+            <p class="foot-name">A Project by Sandwitch Group</p>
+            <p class="foot-name">I.C.P. 5.0, Rode TO Code (R.T.C.)</p>
+            <hr/>
+            <p>© 2023 Explore-Maharashtra Website by :- Team Sandwitch-(I.P.C. 5.0  Rode To Code(R.T.C.).) </p>
         </div>
 
     </body>
