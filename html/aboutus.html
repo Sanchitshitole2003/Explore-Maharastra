@@ -3,77 +3,72 @@
     <head>
         <title>About us</title>
         <style>
-            body{
+              body{
                 margin:0%;
-                background-image:url();
-                background-size: cover;
             }
-            .navbar{
-                background-color: #ff9900;
-                padding:20px;
-                margin-right:20px;
-                margin-left:20px;
-                border-bottom-left-radius:35px;
-                border-bottom-right-radius:35px;
-                box-shadow: 10px 10px 5px rgb(238, 214, 119);
-                display:flex;
-                flex-direction: row;
-                justify-content: end;
-                position:sticky;
-                top:0px;
-            }
-            .navbar:hover{
-                padding:25px;
-                transition:0.4s;
-            }
-            .menu{
-                text-decoration: none;
-                background-color: #595959;
-                font-size: 25px;
-                margin-left: 10px;
+            .nav-bar{
+                background-color: none;
+                color: black;
+                padding: 10px;
+                margin-left: -7px;
                 margin-right: 10px;
-                padding:10px;
-                border-radius:10px;
-                color: #ffffff;
-                text-align: center;
+                margin-top: -7px;
+                display: flex;
+                justify-content: end;
+                font-size: 10px;
+                top: 5px;
             }
-            .menu:hover{
-                background-color:#333333;
-                transition:0.5s;
-                padding-left:12px;
-                padding-right:12px;
-            }
-            .text-team{
-                text-align: center;
-                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-                font-size: 40px;
-            }
-            
-            
-            .team{
-                border-radius: 10px;
-                margin-top: 20x;
-                margin-left:60px;
-                margin-right:60px;
-                padding:20px;
-                
+          
 
+            .nav-btn{
+                margin: 5px;
+                text-decoration: none;
+                margin-right: 15px;
+                color: black;
+                padding: 4px;
+                margin-top: 20px;
+                font-size: 20px;
+                color:black;
+                font-family:'Gill Sans', 'Gill Sans MT', 
+                Calibri, 'Trebuchet MS', sans-serif; 
+             }
+             .nav-btn:hover{
+                box-shadow: 1px 1px 5px 1px black;
+                transition: 0.5s;
+                
+             }
+             .nav-img{
+                height: 50px;
+                width: 100px;
+                margin-left: 9px;
+                margin-right: 350px;
+                margin-top: -2px;
+            }
+            .ourteam{
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 40px;
+                font-weight: bold;
+            }
+            .cont-team{
+                display:flex;
+                justify-content: space-evenly;
+                flex-direction: row;
             }
             .member{
                 display:inline-block;
                 padding:20px;
                 height:300px;
                 width:225px;
-                margin-inline-start: 50px;
-                margin-bottom: 50px;
-                box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+                border-radius: 5px;
+                margin-bottom: 30px;
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, 
+                rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, 
+                rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+                
             }
             .member:hover{
-                box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
-                rgba(0, 0, 0, 0.12) 0px -12px 30px, 
-                rgba(0, 0, 0, 0.12) 0px 4px 6px,
-                rgba(0, 0, 0, 0.17) 0px 12px 13px,
-                rgba(0, 0, 0, 0.09) 0px -3px 5px;
+                box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
                 transition:0.3s;
             }
             img{
@@ -95,18 +90,21 @@
         </style>
     </head>
     <body>
-        <div class="navbar">
-            <a href="" class="menu">Home</a>
-            <a href="" class="menu">Places</a>
-            <a href="" class="menu">Hotel</a>
-            <a href="" class="menu">Images</a>
-            <a href="" class="menu">About us</a>
-            <a href="" class="menu">Contact us</a>
+        <div class="nav-bar">
+            <h1 style= "margin-right: px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Explore-Maharastra</h1>
+            <img src="../Images/explore-maharastra 2.jpeg" class="nav-img"/>
+            <a href="../index.html" target="_blank" class="nav-btn">HOME</a>
+            <a href="./places.html"  class="nav-btn">PLACES</a>
+            <a href="./hotel.html"  class="nav-btn">HOTEL</a>
+            <a href="./images.html"  class="nav-btn">IMAGES</a>
+            <a href="./aboutus.html" target="_blank"  class="nav-btn">ABOUT US</a>
+            <a href="./contact.html"  class="nav-btn">CONTACT US</a>
         </div>
-        <div class="text-team">
-            <h2>Our Team</h2> 
+        <div class="ourteam">
+            <p>Our Team</p>
         </div>
-        <div class="team">
+             
+        <div class="cont-team">
             <div class="member">
                 <img src="../Images/Kunal Ingle.jpg"/>
                 <p class="name">Kunal Ingle</p>
@@ -116,13 +114,15 @@
                 <p class="name">Lokesh Manapure</p>
             </div>
             <div class="member">
-                <img src="https://images.pexels.com/photos/2055100/pexels-photo-2055100.jpeg?auto=compress&cs=tinysrgb&w=600"/>
+                <img src="../Images/Sanchit Shitole.jpg"/>
                 <p class="name">Sanchit Shitole</p>
             </div>
             <div class="member">
-                <img src="https://images.pexels.com/photos/2055100/pexels-photo-2055100.jpeg?auto=compress&cs=tinysrgb&w=600"/>
-                <p class="name">Anagha</p>
+                <img src="../Images/Anagha Thorat.jpg"/>
+                <p class="name">Anagha Thorat</p>
             </div>
+        </div>
+        <div class="cont-team">
             <div class="member">
                 <img src="https://images.pexels.com/photos/2055100/pexels-photo-2055100.jpeg?auto=compress&cs=tinysrgb&w=600"/>
                 <p class="name">Arya Gundu</p>
@@ -136,16 +136,16 @@
                 <p class="name">Aniruddha Kalsait</p>
             </div>
             <div class="member">
-                <img src="https://images.pexels.com/photos/2055100/pexels-photo-2055100.jpeg?auto=compress&cs=tinysrgb&w=600"/>
+                <img src="../Images/Kshteel Parkale.jpg"/>
                 <p class="name">Kshiteej Prakale</p>
             </div>
+        </div>
+        <div class="cont-team">
             <div class="member">
-                <img src="https://images.pexels.com/photos/2055100/pexels-photo-2055100.jpeg?auto=compress&cs=tinysrgb&w=600"/>
+                <img src="../Images/Vishal Phadatare.jpg"/>
                 <p class="name">Vishal Phadatre</p>
             </div>
         </div>
-        <div>
-            
-        </div>
+
     </body>
 </html>
