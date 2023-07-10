@@ -2,179 +2,54 @@
 <html>
     <head>
         <title>
-            Go-Trip
+           Explore-Maharastra
         </title>
-        <style>
-            body{
-                background-image: url("./Images/phototravel.jpg");
-                background-repeat: no-repeat;
-                background-size: 1980px 750px;
-            }
-             .nav-bar
-            {
-                background-color: black;
-                color: white;
-                padding: 10px;
-                margin-left: -7px;
-                margin-right: -10px;
-                margin-top: -7px;
-                display: flex;
-                justify-content: end;
-                font-size: 10px;
-                top: 5px;
-            }
+        
+        <link rel="stylesheet" href="./css/index.css"/>
           
-
-            .nav-btn
-            {
-                margin: 5px;
-                text-decoration: none;
-                margin-right: 10px;
-                color: black;
-                padding: 4px;
-                margin-top: 20px;
-                font-size: 20px;
-                color: white;
-             }
-            
-
-            .nav-img
-            {
-                height: 50px;
-                width: 100px;
-                margin-left: 9px;
-                margin-right: 550px;
-                margin-top: -2px;
-            }
-         
-            .nav-btn:hover
-            {
-                box-shadow: 1px 1px 5px 1px white;
-                transition: 1s;
-                
-             }
-            
-            .home-head
-            {
-                font-family: monospace;
-                text-align: center;
-                margin-top: 260px;
-                font-size: 60px;
-                margin-left: 19px;
-                color: yellow;
-            }
-            
-                .place-book
-             {
-                margin-left: 345px;
-                margin-top: -20px;
-              }
-
-             .book 
-             {
-                background-color: tomato;
-                margin-left: 5px;
-             } 
-             .book:hover
-             {
-                background-color: brown;
-                transition: 1s;
-                cursor: pointer;
-             }
-             .anchor-tag
-             {
-                margin-top: 10px;
-             }
-
-             .title
-             {
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-             }
-
-             .option-menu
-             {
-                font-size: 20px;
-                margin-left: 150px;
-                border-radius: 5px;
-                width: 310px;
-                box-shadow: 1px 1px 6px 3px black;
-                cursor: pointer;
-                opacity: 0.5;
-               
-             }
-             .go-btn
-             {
-                margin-left: 10px;
-                font-size: 20px;
-                border-radius: 10px;
-                background-color: aquamarine;
-                cursor: pointer;
-                box-shadow: 1px 3px 8px 3px black;
-                opacity: 0.7
-             }
-             .go-btn:hover
-             {
-                background-color: chocolate;
-                transition: 1s;
-                cursor: pointer;
-             }
               
-             .home-images
-             {
-                display: flex;
-                justify-content: space-evenly;
-                background-color: bisque;
-                height: 250px;
-                width: 1350px;
-             }
-             .home-imgs
-             {
-                padding-top: 20px;
-             }
-             
-
-        </style>
     </head>
     <body>
         
         <div class="nav-bar">
             
-            
-            <h1 style="margin-right: 500px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Explore-Maharastra</h1>
-            <a href="" class="nav-btn">HOME</a>
-            <a href=""  class="nav-btn">PLACES</a>
-            <a href=""  class="nav-btn">HOTEL</a>
-            <a href=""  class="nav-btn">IMAGES</a>
-            <a href="./html/aboutus.html"  class="nav-btn">ABOUT US</a>
-            <a href=""  class="nav-btn">CONTACT US</a>
+             <h1 style= "margin-right: 10px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Explore-Maharastra</h1>
+            <img src="./Images/flight.png" class="nav-img"/>
+            <a href="index.html" target="_blank" class="nav-btn">HOME</a>
+            <a href="./html/places.html" target="_blank" class="nav-btn">PLACES</a>
+             <a href="./html/images.html" target="_blank" class="nav-btn">IMAGES</a>
+            <a href="./html/aboutus.html" target="_blank"  class="nav-btn">ABOUT US</a>
+            <a href="./html/contact.html" target="_blank"  class="nav-btn">CONTACT US</a>
                 
-            
         </div>
 
 
 
-        <div class="main-head">
+        <div>
             <h1 class="home-head">Find Your Next-Tour!</h1>
         </div>
 
         <div class="place-book">
-            <select class="option-menu">
-                <option>Where Whould You Like To Go?</option>
-                <option>Mumbai</option>
-                <option>Pune</option>
-                <option> Ratnagiri</option>
-                <option>Nagpur</option>
-            </select>
+            <form>
+                <input list="Technologyoption"   class="home-dalist-option input-color"  placeholder="Where Would You Like To Go"/>
+                <datalist id="Technologyoption">
 
-            <button class="go-btn ">Go >></button>
+                    <option></option>
+                    <option>Nagpur</option>
+                    <option>Pune</option>
+                    <option>Mumbai</option>
+                    <option>Kokan</option>
+                    <option>Nashik</option>
+                    <option> Satara</option>
+
+                </datalist>
+                
+            </form>
+
+            <a href="./html/places.html" target="_blank"><button class="places">Places</button></a> 
            
-        </div>
-
-        
-
-        
             
-
-                                                                                                   
-    </body>
+        </div>
+        
+     </body>
 </html>
