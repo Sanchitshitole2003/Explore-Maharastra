@@ -4,130 +4,10 @@
         <title>
            Explore-Maharastra
         </title>
-        <style>
-            body
-            {
-                background-image: url("./Images/shutterstock_1293922393.jpg");
-                background-repeat: no-repeat;
-                background-size: 1540px 725px;
-            }
-
-             .nav-bar
-            {
-                background-color: none;
-                color: black;
-                padding: 10px;
-                margin-left: -7px;
-                margin-right: 10px;
-                margin-top: -7px;
-                display: flex;
-                justify-content: end;
-                font-size: 10px;
-                top: 5px;
-            }
+        
+        <link rel="stylesheet" href="./css/index.css"/>
           
-            .nav-btn
-            {
-                margin: 5px;
-                text-decoration: none;
-                margin-right: 30px;
-                color: black;
-                padding: 4px;
-                margin-top: 20px;
-                font-size: 20px;
-                color:black;
-                font-family:'Gill Sans', 'Gill Sans MT', 
-                Calibri, 'Trebuchet MS', sans-serif; 
-             }
-
-             .nav-btn:hover
-            {
-                border-radius: 3px;
-                box-shadow: 1px 1px 5px 1px black;
-
-                transition: 0.5s;
-                height: 25px;}
-
-             .nav-img
-              {
-                height: 80px;
-                width: 100px;
-                margin-right: 405px;
-                margin-top: -9px;
-            }
-         
-              .home-head
-            {
-                font-family: monospace;
-                text-align: center;
-                margin-top: 140px;
-                font-size: 60px;
-                margin-left: 30px;
-                color:#000000;
-             }
-
-            .home-dalist-option
-            {
-               border-style:groove;
-               margin-left: 190px;
-               margin-top: 50px;
-               font-size: 30px;
-               border-radius: 4px;
-               width: 440px;
-               text-align: center;
-            }
-            
-            .place-book
-             {
-                margin-left: 345px;
-                margin-top: -20px;
-              }
-
-             .book 
-             {
-                background-color: tomato;
-                margin-left: 5px;
-             } 
-
-             .book:hover
-             {
-                background-color: brown;
-                transition: 1s;
-                cursor: pointer;
-             }
-
-             .anchor-tag
-             {
-                margin-top: 10px;
-             }
-
-             .title
-             {
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-             }
-
-             .places
-             {
-                margin-left: 370px;
-                margin-top: 20px;
-                font-size: 25px;
-                border-radius: 10px;
-                background-color: aquamarine;
-                cursor: pointer;
-                height: 35px;
-                width: 100px;
-             }
-
-             .places:hover
-             {
-                background-color: chocolate;
-                transition:0.5s;
-                cursor: pointer;
-                box-shadow: 1px 3px 8px 3px black;
-            }
               
-
-         </style>
     </head>
     <body>
         
@@ -137,10 +17,9 @@
             <img src="./Images/flight.png" class="nav-img"/>
             <a href="index.html" target="_blank" class="nav-btn">HOME</a>
             <a href="./html/places.html" target="_blank" class="nav-btn">PLACES</a>
-            <a href=""  class="nav-btn">HOTEL</a>
-            <a href=""  class="nav-btn">IMAGES</a>
+             <a href="./html/images.html" target="_blank" class="nav-btn">IMAGES</a>
             <a href="./html/aboutus.html" target="_blank"  class="nav-btn">ABOUT US</a>
-            <a href=""  class="nav-btn">CONTACT US</a>
+            <a href="./html/contact.html" target="_blank"  class="nav-btn">CONTACT US</a>
                 
         </div>
 
@@ -152,7 +31,7 @@
 
         <div class="place-book">
             <form>
-                <input list="Technologyoption"   class="home-dalist-option"  placeholder="Where Would You Like To Go"/>
+                <input list="Technologyoption"   class="home-dalist-option input-color"  placeholder="Where Would You Like To Go"/>
                 <datalist id="Technologyoption">
 
                     <option></option>
@@ -160,9 +39,8 @@
                     <option>Pune</option>
                     <option>Mumbai</option>
                     <option>Kokan</option>
-                    <option></option>
-                    <option></option>
-                    <option></option>
+                    <option>Nashik</option>
+                    <option> Satara</option>
 
                 </datalist>
                 
