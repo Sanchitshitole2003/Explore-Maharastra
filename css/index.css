@@ -2,7 +2,7 @@ body
 {
     background-image: url("./../Images/shutterstock_1293922393.jpg");
     background-repeat: no-repeat;
-    background-size: 1537px 725px;
+    background-size: 1537px 700px;
 }
 
  .nav-bar
@@ -53,26 +53,15 @@ body
 {
     font-family: monospace;
     text-align: center;
-    margin-top: 140px;
-    font-size: 60px;
+    margin-top: 150px;
+    font-size: 55px;
     margin-left: 30px;
-    color:#000000;
+    color:yellow;
  }
 
-.home-dalist-option
-{
-   border-style:groove;
-   margin-left: 190px;
-   margin-top: 50px;
-   font-size: 30px;
-   border-radius: 7px;
-   width: 440px;
-   text-align: center;
-}
-.input-color
-{
-    background-color:burlywood;
-}
+
+
+
 
 .place-book
  {
@@ -121,4 +110,59 @@ body
     transition:0.5s;
     cursor: pointer;
     box-shadow: 1px 3px 8px 3px black;
+}
+
+.Explore-Maharastra
+{
+   text-align: center;
+   margin-top: 90px;
+   font-size: 50px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer
+{
+   margin-top: -80px;
+   background-color: burlywood;
+   height: 400px;
+   width: 1530px;
+}
+.footer-head
+{
+   
+   margin-left: 10px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer-img
+{
+   margin-left: 10px;
+   height: 80px;
+   width: 100px;
+}
+
+.img2
+{
+   height: 90px;
+   width: 180px;
+}
+.footer-head3
+{
+   text-align: center;
+   margin-top: -140px;
+}
+.footer-link
+{
+   margin-left: 667px;
+   text-decoration: none;
+   color: black;
+}
+.footer-head4
+{
+   margin-left: 1000px;
+   margin-top: -244px;
+}
+.footer-explore-link
+{
+   margin-left: 999px;
+   text-decoration: none;
+   color: black;
 }
