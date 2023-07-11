@@ -1,6 +1,6 @@
 body
 {
-    background-image: url("./../Images/shutterstock_1293922393.jpg");
+    background-image: url("./../Images/mumbai-3.webp");
     background-repeat: no-repeat;
     background-size: 1537px 700px;
 }
@@ -115,8 +115,9 @@ body
 .Explore-Maharastra
 {
    text-align: center;
-   margin-top: 90px;
-   font-size: 50px;
+   margin-top: 150px;
+   font-size: 70px;
+   color:black;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .footer
