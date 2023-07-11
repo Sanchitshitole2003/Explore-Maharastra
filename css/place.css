@@ -1,0 +1,60 @@
+.welcome-heading
+{
+    margin-top: 200px;
+    background-size: cover;
+    background-color:darksalmon;
+    box-shadow: 0px 0px 5px 3px;
+    padding: 5px;
+}
+
+.welcome
+{
+    color:black;
+    font-size: 50px;
+    text-align: center; 
+}
+
+body
+{
+    margin: 2px;
+}
+
+.welcome-slogan
+{
+    color:black;
+    text-align: center;
+    font-size: 30px;
+}
+
+.Places
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.placechild{
+    text-align: center;
+}
+
+
+
+.img{
+    height: 350px;
+    width: 390px;
+    border-radius: 10px;
+    border: 2px black solid;
+}
+.img:hover{
+    transition: 0.5s;
+    box-shadow: 0px 0px 5px 4px;
+    height: 352px;
+    width: 392px;
+    cursor: pointer;
+}
+.text{
+    font-size: 30px;
+    font-family: "'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif";
+}                                    
+
+

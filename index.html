@@ -4,130 +4,11 @@
         <title>
            Explore-Maharastra
         </title>
-        <style>
-            body
-            {
-                background-image: url("./Images/shutterstock_1293922393.jpg");
-                background-repeat: no-repeat;
-                background-size: 1540px 725px;
-            }
-
-             .nav-bar
-            {
-                background-color: none;
-                color: black;
-                padding: 10px;
-                margin-left: -7px;
-                margin-right: 10px;
-                margin-top: -7px;
-                display: flex;
-                justify-content: end;
-                font-size: 10px;
-                top: 5px;
-            }
+        
+        <link rel="stylesheet" href="./css/index.css"/>
+        <link rel="stylesheet" href="./css/place.css"/>
           
-            .nav-btn
-            {
-                margin: 5px;
-                text-decoration: none;
-                margin-right: 30px;
-                color: black;
-                padding: 4px;
-                margin-top: 20px;
-                font-size: 20px;
-                color:black;
-                font-family:'Gill Sans', 'Gill Sans MT', 
-                Calibri, 'Trebuchet MS', sans-serif; 
-             }
-
-             .nav-btn:hover
-            {
-                border-radius: 3px;
-                box-shadow: 1px 1px 5px 1px black;
-
-                transition: 0.5s;
-                height: 25px;}
-
-             .nav-img
-              {
-                height: 80px;
-                width: 100px;
-                margin-right: 405px;
-                margin-top: -9px;
-            }
-         
-              .home-head
-            {
-                font-family: monospace;
-                text-align: center;
-                margin-top: 140px;
-                font-size: 60px;
-                margin-left: 30px;
-                color:#000000;
-             }
-
-            .home-dalist-option
-            {
-               border-style:groove;
-               margin-left: 190px;
-               margin-top: 50px;
-               font-size: 30px;
-               border-radius: 4px;
-               width: 440px;
-               text-align: center;
-            }
-            
-            .place-book
-             {
-                margin-left: 345px;
-                margin-top: -20px;
-              }
-
-             .book 
-             {
-                background-color: tomato;
-                margin-left: 5px;
-             } 
-
-             .book:hover
-             {
-                background-color: brown;
-                transition: 1s;
-                cursor: pointer;
-             }
-
-             .anchor-tag
-             {
-                margin-top: 10px;
-             }
-
-             .title
-             {
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-             }
-
-             .places
-             {
-                margin-left: 370px;
-                margin-top: 20px;
-                font-size: 25px;
-                border-radius: 10px;
-                background-color: aquamarine;
-                cursor: pointer;
-                height: 35px;
-                width: 100px;
-             }
-
-             .places:hover
-             {
-                background-color: chocolate;
-                transition:0.5s;
-                cursor: pointer;
-                box-shadow: 1px 3px 8px 3px black;
-            }
               
-
-         </style>
     </head>
     <body>
         
@@ -137,41 +18,93 @@
             <img src="./Images/flight.png" class="nav-img"/>
             <a href="index.html" target="_blank" class="nav-btn">HOME</a>
             <a href="./html/places.html" target="_blank" class="nav-btn">PLACES</a>
-            <a href=""  class="nav-btn">HOTEL</a>
-            <a href=""  class="nav-btn">IMAGES</a>
+             <a href="./html/images.html" target="_blank" class="nav-btn">IMAGES</a>
             <a href="./html/aboutus.html" target="_blank"  class="nav-btn">ABOUT US</a>
-            <a href=""  class="nav-btn">CONTACT US</a>
+            <a href="./html/contact.html" target="_blank"  class="nav-btn">CONTACT US</a>
                 
         </div>
 
-
+      <div class="Explore-Maharastra">
+        Wel-Come To Explore Maharastra
+      </div>
 
         <div>
             <h1 class="home-head">Find Your Next-Tour!</h1>
         </div>
 
-        <div class="place-book">
-            <form>
-                <input list="Technologyoption"   class="home-dalist-option"  placeholder="Where Would You Like To Go"/>
-                <datalist id="Technologyoption">
+        <br/> 
+        <br/>
+        <br/>
+        <div class="welcome-heading">
+            <h1 class="welcome"> Welcome To Explore Maharastra </h1>
+            <h2 class="welcome-slogan">Lets's go make some memories</h2> 
+            </div>
+        
+        
+            <div class="Places">
+                <div class="placechild">
+                    <a href="./html/mumbai.html"><img src="./Images/mumbai.jpg" class="img"/></a><br/><br/>
+                    <h class="text"><b>Mumbai</b></h>
+                </div>
+        
+                <div class="placechild">
+                    <img src="./Images/kokan.jpg" class="img"/><br/><br/>
+                    <h class="text"><b>Kokan</b></h>
+                </div>
+              
+                <div class="placechild">
+                    <img src="./Images/nashik.webp" class="img"/><br/><br/>
+                    <h class="text"><b>Nashik</b></h>
+                </div>
+        
+            
+            </div>
+        
+            <div class="Places">
+                <div class="placechild">
+                    <img src="./Images/sambhajinagar.jpg" class="img"/><br/><br/>
+                    <h class="text"><b>Chhatrapati Sambhaji nagar</b></h>
+                </div>
+              
+                <div class="placechild">
+                    <img src="./Images/pune.jpg" class="img"/><br/><br/>
+                    <h class="text"><b>Pune</b></h>
+                </div>
+        
+                <div class="placechild">
+                    <img src="./Images/nagpur.jpg" class="img"/><br/><br/>
+                    <h class="text"><b>Nagpur</b></h>
+                </div>
+            </div><br/><br/><br/><br/><br/><br/><br/>
+ 
 
-                    <option></option>
-                    <option>Nagpur</option>
-                    <option>Pune</option>
-                    <option>Mumbai</option>
-                    <option>Kokan</option>
-                    <option></option>
-                    <option></option>
-                    <option></option>
+        <div class="footer">
+            <h1 class="footer-head">Explore-Maharastra</h1>
+            <img src="./Images/flight.png" class="footer-img"/>
+            <img src="./Images/tourist-places-in-maharashtra.png" class="footer-img img2"/>
 
-                </datalist>
+            <div class="footer-places">
+                <h3 class="footer-head3">Popular Places</h3>
                 
-            </form>
+                <ul><a href="" class="footer-link">Mumbai</a></ul>
+                <ul><a href="" class="footer-link">Pune</a></ul>
+                <ul><a href="" class="footer-link">Nagpur</a></ul>
+                <ul><a href="" class="footer-link">Nashik</a></ul>
+                <ul><a href="" class="footer-link">Kokan</a></ul>
+                <ul><a href="" class="footer-link">Chhatrapati Sambhaji nagar</a></ul>
+            </ul>
 
-            <a href="./html/places.html" target="_blank"><button class="places">Places</button></a> 
-           
+            <h3 class="footer-head4">Explore maharastra</h3>
+                
+                <ul><a href="" class="footer-explore-link">Beaches</a></ul>
+                <ul><a href="" class="footer-explore-link">Hill Station</a></ul>
+                <ul><a href="" class="footer-explore-link">Nature & Wildlife</a></ul>
+                <ul><a href="" class="footer-explore-link">Destinations</a></ul>
+              
+            </ul>
+            </div>
             
         </div>
-        
+       
      </body>
 </html>
