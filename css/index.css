@@ -167,3 +167,13 @@ body
    text-decoration: none;
    color: black;
 }
+.footer-head5
+{
+   text-align: end;
+}
+.footer-Quick-link
+{
+   text-decoration: none;
+   color: black;
+   margin-left: 1500px;
+}
