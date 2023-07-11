@@ -38,7 +38,8 @@
       }
 
       .page{
-       background-color: bisque;
+        background: linear-gradient(to top right, #ccffff 0%, #ffcccc 100%);
+       background-size: 1500px 650px;
       }
 
       .gmail{
