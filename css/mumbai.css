@@ -115,3 +115,8 @@ button:hover{
 .p-foot{
     font-size: 15px;
 }
+
+.know-more-btn:hover
+{
+  background-color:aqua;
+}

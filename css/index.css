@@ -124,8 +124,9 @@ body
 {
    margin-top: -80px;
    background-color: burlywood;
-   height: 400px;
-   width: 1530px;
+   display: inline-block;
+   padding: 20px;
+   width: 1490px;
 }
 .footer-head
 {

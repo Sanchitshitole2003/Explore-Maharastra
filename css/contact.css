@@ -61,4 +61,20 @@
         
       }
 
+      .submit-btn
+      {
+        border-radius: 3px;
+        padding: 3px;
+        width: 70px;
+      }
+
+      
+      .submit-btn:hover
+      {
+        background-color: greenyellow;
+        cursor: pointer;
+        font-size: 15px;
+        box-shadow: 3px 1px 5px 3px black;
+      }
+
       
